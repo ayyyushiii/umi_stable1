@@ -1,0 +1,39 @@
+/* PersonalDetails.css */
+.personal-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .personal-details h1 {
+    font-size: 2.5rem;
+    color: #3d5a6e;
+    margin-bottom: 30px;
+  }
+  
+  .personal-details .details-card {
+    width: 80%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .personal-details .details-card label {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .personal-details .details-card input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  
